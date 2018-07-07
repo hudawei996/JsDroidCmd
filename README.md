@@ -24,10 +24,13 @@ js倾向于脚本化，开发更快速，更便捷，网络传输更小巧，热
 ~~~
     //无root（短调用）
     adb shell curl http://127.0.0.1:9800/?js='hello world!'
-    //有root（会添加SystemService,短调用）
+    //有root（短调用，会添加SystemService）
     adb shell dumpsys jsdroid_service /data/local/tmp/main.js
     //runjs（长调用）
     adb shell /data/local/tmp/runjs -file /data/local/tmp/main.js
 ~~~
 3.JsDroidIDE
   JsDroidIDE目前具有代码预览界面、截屏分析、运行与停止和打包apk等功能。
+### 联系方式
+    qq：980008027
+    
