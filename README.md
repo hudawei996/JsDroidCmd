@@ -30,6 +30,7 @@ js倾向于脚本化，开发更快速，更便捷，网络传输更小巧，热
     adb shell /data/local/tmp/runjs -file /data/local/tmp/main.js
 ~~~
 3.JsDroidIDE
+JsDroidIDE是专门用来编写jsdroid脚本的编辑器。
 JsDroidIDE目前具有代码预览界面、截屏分析、运行与停止和打包apk等功能。
 ### 联系方式
     qq：980008027
